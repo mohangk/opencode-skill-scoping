@@ -1,0 +1,31 @@
+{
+  "name": "opencode-skill-scoping",
+  "version": "0.1.0",
+  "description": "OpenCode v2 plugin: per-project skill scoping and namespaced skill aliases (source labels like user:pdf, project:git-release, plus custom namespaces).",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "skills",
+    "scoping",
+    "namespacing"
+  ],
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "test": "node --test scoping.test.ts",
+    "test:integration": "./scripts/validate.sh"
+  },
+  "files": [
+    "index.ts",
+    "scoping.ts",
+    "skill-scoping.example.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@opencode/plugin": "^2.0.10"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "separator": ":",
+  "hideOriginals": false,
+  "advertiseAliases": "custom",
+  "namespaces": {
+    "release": ["release-*", "sprint-*"],
+    "docs": ["pdf", "docx", "pptx", "xlsx", "docs"]
+  },
+  "scopes": {
+    "/Users/me/Work/release-manager": [
+      "release-*",
+      "sprint-*",
+      "contribution-audit",
+      "docs",
+      "pdf",
+      "xlsx"
+    ],
+    "default": [
+      "docs",
+      "docx",
+      "pptx",
+      "pdf",
+      "xlsx",
+      "deep-research",
+      "fact-check",
+      "article-audit",
+      "news-monitor",
+      "tech-advisor",
+      "competitive-intel",
+      "find-skills"
+    ]
+  }
+}

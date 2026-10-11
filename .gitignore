@@ -1,0 +1,6 @@
+# personal rules — copy skill-scoping.example.json to skill-scoping.json
+skill-scoping.json
+# runtime trace
+.skill-scoping-debug.log
+# dependencies / tooling
+node_modules/
